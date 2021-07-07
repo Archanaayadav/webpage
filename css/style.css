@@ -1,0 +1,177 @@
+body{
+  background-color: #1E363E;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  flex: 1;
+} 
+
+#telegram{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 1;  
+}
+
+.right{
+  margin: 0.5rem;
+}
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #08cece;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #455b69;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #455b69;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  padding: 10px;
+  border: 3px solid #08cece;
+  color: #08cece;
+  text-align: center;
+}
+
+.header select{
+  background-color: #455b69;
+  color: #fff;
+  margin-top: 50px;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.right{
+  margin-top: 50px;
+}
+
+.text{
+  border: 1px ;
+  padding: 8px;
+  background-color: #08cece;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.header a{
+  text-decoration: none;
+  color: #fff;
+  padding: 7px;
+  text-align: center;
+}
+
+.switch{
+  margin-top: 5px;
+}
+
+.name{
+  margin-top: 20px;
+}
+.header h1 span{
+  color: #08cece;
+}
+
+.header p{
+  padding-top: 0;
+}
+.header p span{
+  color: #08cece;
+}
+
+#table{
+  padding: 30px 15px;
+}
+
+.info{
+    min-width: 95vw;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+.info tbody{
+  color: #fff;
+}
+
+.itemcontainer{
+  background: rgb(71, 69, 69);
+}
+
+td{
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+.itemHeader {
+  font-size: 20px;
+  margin: 20px 0;
+  padding: 10px 0;
+  color: rgb(150, 146, 146);
+}
+
+
+.mode{
+  background: black;
+}
+
+

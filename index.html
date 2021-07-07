@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+  <title>Index Webpage</title>
+</head>
+<body>
+  <div id="container">   
+    <div class="header name">
+      <h1><span>HODLINFO</span>.com</h1>
+      <p>Powered By <span>Finstreet</span></p>
+    </div>
+
+    <div class="header">
+      <form action="#"> 
+        <select id="inr" name="inr">
+          <option value="inr">INR</option>
+        </select>   
+        <select id="btc" name="btc">
+          <option value="btc">BTC</option>
+          <option value="xrp">XRP</option>
+        </select> 
+      </form> 
+    </div>
+
+    <div class="header">
+      <div id="telegram">
+        <div class="right circle">58</div>
+        <div class="right text"><span class="iconify" data-icon="fa-telegram" data-inline="false"></span> Connect Telegram</div>
+        <div class="right">
+          <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <section id="table">
+    <table class="info">
+      <thead>
+        <tr>
+          <th class="itemHeader">#</th>
+          <th class="itemHeader">Name</th>
+          <th class="itemHeader">Last</th>
+          <th class="itemHeader">Buy/Sell price</th>
+          <th class="itemHeader">volume</th>
+          <th class="itemHeader">base_unit</th>
+        </tr>
+      </thead>
+      <tbody class="itemcontainer">
+        <tr>
+          <td>1</td>
+          <td>BTC/INR</td>
+          <td>Rs 2,587,560</td>
+          <td>Rs 2,587,560/Rs 2,590,518</td>
+          <td>286.1729</td>
+          <td>btc</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>BTC/INR</td>
+          <td>Rs 2,587,560</td>
+          <td>Rs 2,587,560/Rs 2,590,518</td>
+          <td>286.1729</td>
+          <td>btc</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  
+  <!-- <div id="btn"><button>abc</button></div> -->
+  <div class="mode"></div>
+  <script src="main.js"></script>
+</body>
+</html>
